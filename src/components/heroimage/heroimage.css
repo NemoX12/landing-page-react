@@ -1,0 +1,19 @@
+.heroimage__container {
+  position: absolute;
+  margin-top: -10rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .heroimage__container img {
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heroimage__container img {
+    width: 310px;
+  }
+}

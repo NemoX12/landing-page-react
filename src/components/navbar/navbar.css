@@ -1,0 +1,134 @@
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__container-header {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar__container-links {
+  display: flex;
+  gap: 1.75rem;
+}
+
+.navbar__container-links p {
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.navbar__container-auth {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navbar__container-auth p {
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar__container-auth button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: var(--btn-main);
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar__container-menu {
+  display: none;
+  color: #fff;
+}
+
+.navbar__container-menu p {
+  cursor: pointer;
+}
+
+.navbar__container-menu__container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  margin-left: -7rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar__container-menu__container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar__container-menu__container-auth {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.navbar__container-menu__container-auth p {
+  cursor: pointer;
+}
+
+.navbar__container-menu__container-auth button {
+  padding: 0.8rem 1.25rem;
+  border-radius: 10px;
+  background-color: var(--btn-main);
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar__container-links {
+    display: none;
+  }
+
+  .navbar__container-auth {
+    display: none;
+  }
+
+  .navbar__container-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar__container-menu__container {
+    margin-left: -8rem;
+  }
+
+  .navbar__container-menu__container p {
+    font-size: 12px;
+  }
+
+  .navbar__container-menu__container-auth button {
+    padding: 0.6rem 1rem;
+  }
+}

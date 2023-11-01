@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --btn-main: #ff7f5c;
+  --btn-secondary: #3734a9;
+  --footer-color: #1b1c31;
+  --font-family: Manrope;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section__padding {
+  padding: 2rem 4rem;
+}
+
+@media screen and (max-width: 850px) {
+  .section__padding {
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 1rem 1rem;
+  }
+}
+
+.gradient-header {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(180deg, #3734a9 0%, #5350d9 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(180deg, #3734a9 0%, #5350d9 100%);
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(180deg, #3734a9 0%, #5350d9 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5350D9', endColorstr='#3734A9', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(180deg, #3734a9 0%, #5350d9 100%);
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(180deg, #3734a9 0%, #5350d9 100%);
+}
+
+.scale-up-top {
+  -webkit-animation: scale-up-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-top {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+}
+@keyframes scale-up-top {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+}
