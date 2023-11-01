@@ -1,0 +1,39 @@
+.partnershiplogos__container {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  margin-top: 2rem;
+}
+
+.partnershiplogos__container img {
+  width: 120px;
+}
+
+@media screen and (max-width: 1030px) {
+  .partnershiplogos__container {
+    gap: 2rem;
+  }
+
+  .partnershiplogos__container img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .partnershiplogos__container {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .partnershiplogos__container img {
+    width: 120px;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .partnershiplogos__container img {
+    width: 100px;
+    margin-top: 1rem;
+  }
+}
