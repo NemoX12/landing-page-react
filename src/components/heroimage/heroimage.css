@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.heroimage__container img {
+  width: 680px;
+}
+
 @media screen and (max-width: 800px) {
   .heroimage__container img {
     width: 620px;

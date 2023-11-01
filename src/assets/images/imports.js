@@ -15,7 +15,7 @@ export { default as MondayLogo } from "./monday.svg";
 export { default as MorpheusLogo } from "./morpheus.svg";
 export { default as OpenZeppelinLogo } from "./openzeppelin.svg";
 export { default as OracleLogo } from "./oracle.svg";
-export { default as Protone } from "./protone.svg";
+export { default as ProtoneLogo } from "./protone.svg";
 export { default as SamsungLogo } from "./samsung.svg";
 export { default as SegmentLogo } from "./segment.svg";
 

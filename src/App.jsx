@@ -1,9 +1,10 @@
-import { Hero } from "./containers/imports";
+import { Hero, Partnership } from "./containers/imports";
 
 const App = () => {
   return (
     <div>
       <Hero />
+      <Partnership />
     </div>
   );
 };
