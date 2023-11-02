@@ -1,10 +1,11 @@
-import { Hero, Partnership } from "./containers/imports";
+import { Hero, Partnership, Features } from "./containers/imports";
 
 const App = () => {
   return (
     <div>
       <Hero />
       <Partnership />
+      <Features />
     </div>
   );
 };
