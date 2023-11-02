@@ -21,3 +21,8 @@ export { default as SegmentLogo } from "./segment.svg";
 
 // Background
 export { default as HeroBackground } from "./hero_background.svg";
+
+// Icons
+export { default as Shield } from "./shield.svg";
+export { default as Building } from "./building.svg";
+export { default as Server } from "./server.svg";

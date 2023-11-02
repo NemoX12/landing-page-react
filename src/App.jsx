@@ -1,4 +1,10 @@
-import { Hero, Partnership, Features, Benefits } from "./containers/imports";
+import {
+  Hero,
+  Partnership,
+  Features,
+  Benefits,
+  Privacy,
+} from "./containers/imports";
 
 const App = () => {
   return (
@@ -7,6 +13,7 @@ const App = () => {
       <Partnership />
       <Features />
       <Benefits />
+      <Privacy />
     </div>
   );
 };
