@@ -1,8 +1,8 @@
 // Main Images
 export { default as HeaderContent } from "./header_content.png";
 export { default as FeaturesImage } from "./features_image.png";
-// export { default as FeaturesPayment } from "./payment.png";
-export { default as Benefits } from "./benefits.png";
+export { default as FeaturesPayment } from "./payment.png";
+export { default as BenefitsImage } from "./benefits.png";
 
 // Blog Images
 export { default as Blog1 } from "./blog1.png";
