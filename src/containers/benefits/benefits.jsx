@@ -14,7 +14,7 @@ const Benefits = () => {
         </div>
       </div>
       <div className="benefits__container-bottom__section">
-        <div>
+        <div className="benefits__container-bottom__section-features">
           <Feature
             num={1}
             title={"First Working Process"}

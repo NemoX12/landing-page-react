@@ -84,3 +84,13 @@
     margin-left: 0;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .benefits__container-bottom__section {
+    width: 310px;
+  }
+
+  .benefits__container-bottom__section-features {
+    width: 310px;
+  }
+}

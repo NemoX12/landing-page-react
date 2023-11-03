@@ -1,0 +1,110 @@
+.bottom__container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 3.5rem;
+
+  margin-top: 3rem;
+}
+
+/* Card Styles */
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  padding: 2rem 3rem;
+
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 2.62639px 4.46486px 0px rgba(0, 0, 0, 0.01),
+    0px 11.5561px 9.24488px 0px rgba(0, 0, 0, 0.01),
+    0px 28.36497px 18.43723px 0px rgba(0, 0, 0, 0.01),
+    0px 54.62884px 36.13908px 0px rgba(0, 0, 0, 0.02),
+    0px 91.92352px 66.44758px 0px rgba(0, 0, 0, 0.02),
+    0px 141.82486px 113.45989px 0px rgba(0, 0, 0, 0.03);
+}
+
+.card__container-header {
+  color: #000;
+  text-align: center;
+  width: 420px;
+  font-family: var(--font-family);
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 50px; /* 119.048% */
+  letter-spacing: -1.26px;
+}
+
+.card__container-text {
+  color: #64607d;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: -0.32px;
+}
+
+.card__container-btn {
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  background-color: var(--btn-secondary);
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .bottom__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    margin-top: 3rem;
+    align-items: center;
+  }
+
+  .card__container {
+    gap: 1.5rem;
+    /* width: 300px; */
+
+    padding: 1rem 2rem;
+  }
+
+  .card__container-header {
+    font-size: 24px;
+    line-height: 30px; /* 119.048% */
+    width: 280px;
+  }
+
+  .card__container-text {
+    font-size: 14px;
+    line-height: 24px; /* 187.5% */
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .card__container {
+    padding: 1rem;
+    width: 250px;
+  }
+
+  .card__container-header {
+    font-size: 18px;
+    line-height: 30px; /* 119.048% */
+    width: 260px;
+  }
+
+  .card__container-text {
+    font-size: 12px;
+  }
+
+  .card__container-btn {
+    padding: 1rem 2rem;
+  }
+}
