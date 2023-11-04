@@ -4,6 +4,8 @@ import {
   Features,
   Benefits,
   Privacy,
+  Blog,
+  Footer,
 } from "./containers/imports";
 
 const App = () => {
@@ -14,6 +16,8 @@ const App = () => {
       <Features />
       <Benefits />
       <Privacy />
+      <Blog />
+      <Footer />
     </div>
   );
 };

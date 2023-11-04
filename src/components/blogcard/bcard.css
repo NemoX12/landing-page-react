@@ -1,0 +1,42 @@
+.bcard__container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-color: #fff;
+  justify-content: flex-start;
+}
+
+.bcard__container-content {
+  padding: 1rem;
+}
+
+.bcard__container-content__text {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 124.138% */
+  letter-spacing: -0.58px;
+  width: 290px;
+}
+
+.bcard__container-image {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.bcard__container-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (max-width: 330px) {
+  .bcard__container-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+  }
+}

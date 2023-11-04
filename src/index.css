@@ -17,6 +17,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: #fafbff;
+}
+
 .section__padding {
   padding: 2rem 4rem;
 }
