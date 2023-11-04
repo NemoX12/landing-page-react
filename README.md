@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6ea56cf-38bf-45aa-821d-93fc605eaa4d/deploy-status)](https://app.netlify.com/sites/unrivaled-haupia-01e3a6/deploys)
+
 # Landing Page on React
 
 The landing page that built using React and vanilla CSS.
